@@ -85,6 +85,8 @@ After a Node is selected, the kube-scheduler binds the Pod to it
   - Monitors container health via liveness and readiness probes.
   - Periodically reports Pod status (e.g. "Running", "Failed") back to the API server.
  
+ ![Cluster Architecture](https://kubernetes.io/images/docs/kubernetes-cluster-architecture.svg)
+ 
 ## References
 
 [Kubernetes Official Docs](https://kubernetes.io/docs/concepts/architecture/)
