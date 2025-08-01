@@ -48,10 +48,10 @@ spec:
 - When a Pod is first created, the ```spec.nodeName``` field is null, which signals to Kubernetes that this Pod needs to be scheduled
 
 - The kube-scheduler watches for such unassigned Pods and selects the most appropriate Node based on:
- - CPU/RAM
- - Affinities
- - Taints/tolerations
- - Node health
+  - CPU/RAM
+  - Affinities
+  - Taints/tolerations
+  - Node health
 - Updates the Pod spec with the selected node:
 
 ### Example - Taints and Tolerations
